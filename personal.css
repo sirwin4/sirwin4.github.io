@@ -1,10 +1,24 @@
-body {
+#main {
     background-image: URL("/images/NC.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100vh;
 }
 
-#main {
+.forefront-element {
+    -webkit-transform: translateZ(999px) scale(.7);
+    transform: translateZ(999px) scale(.7);
+    z-index: 1;
+  }
 
-}
+  .base-element {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 4;
+  }
+
+  .background-element {
+    -webkit-transform: translateZ(-999px) scale(2);
+    transform: translateZ(-999px) scale(2);
+    z-index: 3;
+  }
