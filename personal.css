@@ -2,5 +2,9 @@ body {
     background-image: URL("/images/NC.jpg");
     background-repeat: no-repeat;
     background-position: Center;
-    background-size: 90%
+    background-size: 100vh;
+}
+
+#main {
+
 }
