@@ -8,35 +8,6 @@
     <link rel="stylesheet" href="personal.css">
 </head>
 <body>
-    <script>
-    var slideIndex = 0;
-
-    function carousel() {
-    
-    selectorTarget = 'forefront-element' + slideIndex.toString()
-
-    slideIndex += 1;
-
-    if (slideIndex > 3) {
-        slideIndex = 0
-    }
-
-    newSelectorId = 'forefront-element' + slideIndex.toString()
-
-    console.log(selectorTarget)
-
-    var x = document.getElementById(selectorTarget)
-
-    console.log(x)
-
-    x.setAttribute("id", newSelectorId)
-
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-    }
-
-    carousel();
-    </script>
-    
     <div id="forefront-element0">
     <div class="content">
     <H1 class="internal">Sean Irwin</H1>
@@ -103,5 +74,33 @@
         <p class="internal">My love of climbing is just another way to enjoy problem solving. The mental process of finding how to move your body across the rock and use every resource the edges and indentions in the rock provide to move up as effeciently as possible is an all encompassing challenge.</p>
     </div>
 </div>
+<script>
+var slideIndex = 0;
+
+function carousel() {
+
+selectorTarget = 'forefront-element' + slideIndex.toString()
+
+slideIndex += 1;
+
+if (slideIndex > 3) {
+    slideIndex = 0
+}
+
+newSelectorId = 'forefront-element' + slideIndex.toString()
+
+console.log(selectorTarget)
+
+var x = document.getElementById(selectorTarget)
+
+console.log(x)
+
+x.setAttribute("id", newSelectorId)
+
+setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+carousel();
+</script>
 </body>
 </html>
