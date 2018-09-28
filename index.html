@@ -14,19 +14,22 @@
     function carousel() {
 
     slideIndex++;
+    
+    slides = ["/images/NC.jpg", "/images/climbing1", "/images/climbing2", "/images/climbing3"]
 
-    if (slideIndex > x.length) {
+    if (slideIndex > slides.length) {
         slideIndex = 1
     }
-    slides = ["/images/NC.jpg", "/images/climbing1", "/images/climbing2", "/images/climbing3"]
+
     var x = document.getElementsByClassName("forefront-element::before");
+    
     for (let i = 0; i < slides.length; i++) {
       x[0].style.backgroundImage = 'url(' + slides[i] + ')';
     }
 
     setTimeout(carousel, 2000); // Change image every 2 seconds
     }
-    
+
     carousel();
     </script>
     
