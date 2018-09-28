@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100vh;
-    z-index: 1;
+    z-index: -1;
 }
 
 .forefront-element {
