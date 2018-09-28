@@ -10,7 +10,7 @@
     overflow-y: scroll;
     background-size: cover;
     transform-origin: top left 0;
-    transform: translatey(-1px) translateX(-1px) scale(2);
+    transform: translate(-1px, -.1px) scale(2);
     z-index: -1;
     min-height: 210vh;
 }
