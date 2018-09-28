@@ -24,6 +24,7 @@ z-index: 3;
     z-index: 4;
 }
 .internal {
+    background: none;
     opacity: 1;
     z-index: 5;
 }
