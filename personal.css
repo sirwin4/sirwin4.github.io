@@ -4,13 +4,13 @@
     left: 0;
     position: absolute;
     right: 0;
-    top:0;
+    top: 0;
     display: block;
     background-image: URL("/images/NC.jpg");
     overflow-y: scroll;
     background-size: cover;
-    transform-origin: center center 0;
-    transform: translateZ(-1px) scale(2);
+    transform-origin: top left 0;
+    transform: translateZ(-1px, .1px) scale(2);
     z-index: -1;
     min-height: 200vh;
 }
