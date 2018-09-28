@@ -1,15 +1,22 @@
-#main {
+#forefront-element::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top:0;
+    display: block;
     background-image: URL("/images/NC.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 100vh;
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
     z-index: -1;
+    min-height: 100vh;
+    
 }
 
-.forefront-element {
-    -webkit-transform: translateZ(999px) scale(1);
-    transform: translateZ(999px) scale(1);
-    z-index: 2;
+#forefront-element {
+    margin-top: -100px;
 }
 
 .base-element {
@@ -27,4 +34,20 @@ z-index: 3;
 .internal {
     opacity: 1;
     z-index: 5;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    color: lightblue;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
