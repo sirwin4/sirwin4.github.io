@@ -12,20 +12,19 @@
     var slideIndex = 0;
 
     function carousel() {
-
-    slideIndex++;
     
-    slides = ["/images/NC.jpg", "/images/climbing1", "/images/climbing2", "/images/climbing3"]
+    selectorTarget = '#forefront-element' + str(slideIndex)
+    slideIndex++;
 
-    if (slideIndex > slides.length) {
-        slideIndex = 1
+    newSelectorId = 'forefront-element' + str(slideIndex)
+
+    if (slideIndex > 3) {
+        slideIndex = 0
     }
 
-    var x = document.querySelector('#forefront-element', '::before')
+    var x = document.querySelector(selectorTarget)
 
-    for (let i = 0; i < slides.length; i++) {
-      x[0].style.backgroundImage = 'url(' + slides[i] + ')';
-    }
+    x.id = newSelectorId
 
     setTimeout(carousel, 2000); // Change image every 2 seconds
     }

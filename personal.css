@@ -1,4 +1,4 @@
-#forefront-element::before {
+#forefront-element0::before {
     bottom: 0;
     content: "";
     left: 0;
@@ -16,7 +16,73 @@
     min-width: 100vw;
 }
 
-#forefront-element {
+#forefront-element1::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background-image: URL("/images/climbing1.png");
+    overflow-y: scroll;
+    background-size: cover;
+    transform-origin: center 22% 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 280vh;
+    min-width: 100vw;
+}
+
+#forefront-element2::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background-image: URL("/images/climbing2.png");
+    overflow-y: scroll;
+    background-size: cover;
+    transform-origin: center 22% 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 280vh;
+    min-width: 100vw;
+}
+
+#forefront-element3::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background-image: URL("/images/climbing3.png");
+    overflow-y: scroll;
+    background-size: cover;
+    transform-origin: center 22% 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 280vh;
+    min-width: 100vw;
+}
+
+#forefront-element0 {
+    margin-top: 100px;
+}
+
+#forefront-element1 {
+    margin-top: 100px;
+}
+
+#forefront-element2 {
+    margin-top: 100px;
+}
+
+#forefront-element3 {
     margin-top: 100px;
 }
 
