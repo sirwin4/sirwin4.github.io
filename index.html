@@ -12,8 +12,6 @@
     var slideIndex = 0;
 
     function carousel() {
-
-    console.log("cool")
     
     selectorTarget = '#forefront-element' + slideIndex.toString()
     slideIndex++;
@@ -25,6 +23,8 @@
     }
 
     var x = document.querySelector(selectorTarget)
+
+    console.log(x)
 
     x.setAttribute("id", newSelectorId)
 
