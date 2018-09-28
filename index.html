@@ -21,8 +21,9 @@
         slideIndex = 1
     }
 
-    var x = document.getElementsByClassName("forefront-element::before");
-    
+    var x = window.getComputedStyle(document.querySelector('.forefront-element'), ':before')
+    console.log(x)
+
     for (let i = 0; i < slides.length; i++) {
       x[0].style.backgroundImage = 'url(' + slides[i] + ')';
     }
