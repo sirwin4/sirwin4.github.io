@@ -10,10 +10,9 @@
     overflow-y: scroll;
     background-size: cover;
     transform-origin: center center 0;
-    transform: translateZ(-1px) scale(-2);
+    transform: translateZ(1px) scale(2);
     z-index: -1;
     min-height: 200vh;
-    min-width: 100vw;
 }
 
 #forefront-element {
