@@ -7,12 +7,13 @@
     top:0;
     display: block;
     background-image: URL("/images/NC.jpg");
+    overflow-y: scroll;
     background-size: cover;
     transform-origin: center center 0;
     transform: translateZ(-1px) scale(2);
     z-index: -1;
     min-height: 100vh;
-    
+
 }
 
 #forefront-element {
@@ -27,7 +28,7 @@ z-index: 3;
 
 .content {
     border-radius: 25px;
-    background-color:rgba(128,128,128, .4   );
+    background-color:rgba(128,128,128, .4);
     padding: 20px;
     z-index: 4;
 }
@@ -42,7 +43,7 @@ html {
 }
 
 body {
-    color: lightblue;
+    background-color: lightblue;
     margin: 0;
     padding: 0;
     perspective: 1px;
