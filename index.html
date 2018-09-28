@@ -14,13 +14,14 @@
     function carousel() {
     
     selectorTarget = '#forefront-element' + slideIndex.toString()
-    slideIndex++;
 
-    newSelectorId = 'forefront-element' + slideIndex.toString()
+    slideIndex += 1;
 
     if (slideIndex > 3) {
         slideIndex = 0
     }
+
+    newSelectorId = 'forefront-element' + slideIndex.toString()
 
     var x = document.querySelector(selectorTarget)
 
