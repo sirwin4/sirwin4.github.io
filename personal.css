@@ -19,7 +19,7 @@ z-index: 3;
 }
 
 .content {
-    background-color:rgba(128,128,128, .1);
+    background-color:rgba(128,128,128, .4);
     z-index: 4;
 }
 .internal {
