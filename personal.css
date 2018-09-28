@@ -9,7 +9,7 @@
     background-image: URL("/images/NC.jpg");
     overflow-y: scroll;
     background-size: cover;
-    transform-origin: 10% center 0;
+    transform-origin: center 10% 0;
     transform: translateZ(-1px) scale(2);
     z-index: -1;
     min-height: 200vh;
