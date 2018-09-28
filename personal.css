@@ -39,6 +39,7 @@ z-index: 3;
 
 html {
     height: 100%;
+    overflow-y: hidden
 }
 
 body {
