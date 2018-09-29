@@ -136,3 +136,7 @@ a {
 p {
     font-size: 1.7rem;
 }
+
+.preload {
+    display: hidden;
+}
