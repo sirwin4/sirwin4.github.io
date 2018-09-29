@@ -48,7 +48,7 @@
     transform-origin: center center 0;
     transform: translateZ(-1px) scale(2);
     z-index: -1;
-    min-height: 280vh;
+    min-height: 200vh;
     min-width: 100vw;
 }
 
@@ -106,7 +106,8 @@ z-index: 3;
 
 html {
     height: 100%;
-    overflow-y: hidden
+    overflow-y: hidden;
+    overflow-x: visible;
 }
 
 body {
@@ -117,7 +118,6 @@ body {
     transform-style: preserve-3d;
     height: 100%;
     overflow-y: scroll;
-    overflow-x: hidden;
     text-align: center;
 }
 
