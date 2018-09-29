@@ -27,7 +27,7 @@
     background-image: URL("/images/climbing1.png");
     overflow-y: scroll;
     background-size: cover;
-    transform-origin: 60% center 0;
+    transform-origin:center center 0;
     transform: translateZ(-1px) scale(2);
     z-index: -1;
     min-height: 280vh;
@@ -45,7 +45,7 @@
     background-image: URL("/images/climbing2.png");
     overflow-y: scroll;
     background-size: cover;
-    transform-origin: 70% center 0;
+    transform-origin:center center 0;
     transform: translateZ(-1px) scale(2);
     z-index: -1;
     min-height: 200vh;
@@ -63,7 +63,7 @@
     background-image: URL("/images/climbing3.png");
     overflow-y: scroll;
     background-size: cover;
-    transform-origin: 80% center 0;
+    transform-origin:center center 0;
     transform: translateZ(-1px) scale(2);
     z-index: -1;
     min-height: 280vh;
