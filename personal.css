@@ -70,6 +70,24 @@
     min-width: 100vw;
 }
 
+#forefront-element4::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background-image: URL("/images/climbing3.png");
+    overflow-y: scroll;
+    background-size: cover;
+    transform-origin:center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 280vh;
+    min-width: 100vw;
+}
+
 #forefront-element0 {
     margin-top: 100px;
 }
@@ -83,6 +101,10 @@
 }
 
 #forefront-element3 {
+    margin-top: 100px;
+}
+
+#forefront-element4 {
     margin-top: 100px;
 }
 
